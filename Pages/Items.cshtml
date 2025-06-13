@@ -1,0 +1,50 @@
+@page
+@model ItemsModel
+@{
+    Layout = "_Layout";
+}
+@{
+    ViewData["Title"] = "Tooted";
+}
+<h1>Tooted</h1>
+
+<h2>Fikseeritud kogusega tooted</h2>
+<ul>
+@foreach (var item in Model.FixedItems)
+{
+    <li>@item.Name – €@item.Price (@item.Quantity tk)</li>
+}
+</ul>
+
+<h2>Muudetava kogusega tooted</h2>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+    <table>
+        <thead>
+            <tr>
+                <th>Nimi</th>
+                <th>Hind</th>
+                <th>Hetkekogus</th>
+                <th>Uus kogus</th>
+            </tr>
+        </thead>
+        <tbody>
+        @for (int i = 0; i < Model.Items.Count; i++)
+        {
+            <tr>
+                <td>@Model.Items[i].Name</td>
+                <td>€@Model.Items[i].Price</td>
+                <td>@Model.Items[i].Quantity</td>
+                <td>
+                    <input type="hidden" name="Items[@i].Id" value="@Model.Items[i].Id" />
+                    <input type="number" name="Items[@i].Quantity" value="@Model.Items[i].Quantity" min="0" />
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <div style="margin-top: 20px;">
+        <button type="submit">Uuenda kogused</button>
+    </div>
+</form>

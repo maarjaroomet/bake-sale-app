@@ -1,0 +1,224 @@
+@page
+@model SaleModel
+@{
+    Layout = "_Layout";
+}
+@{
+    ViewData["Title"] = "Müük";
+}
+
+<h1>Toodete müük</h1>
+
+<div id="item-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px;">
+@foreach (var item in Model.Items)
+{
+    var isOutOfStock = item.Quantity <= 0;
+    var imageClass = isOutOfStock ? "grayscale" : "clickable";
+    var imageStyle = isOutOfStock ? "filter: grayscale(100%); cursor: not-allowed;" : "cursor: pointer;";
+
+    <div class="item-card" data-id="@item.Id" data-stock="@item.Quantity" data-price="@item.Price.ToString(System.Globalization.CultureInfo.InvariantCulture)">
+        <img src="~/images/@item.ImageName"
+             class="@imageClass"
+             alt="@item.Name"
+             data-id="@item.Id"
+             width="150" height="150"
+             style="@imageStyle" />
+        <p>@item.Name</p>
+        <p>Kogus: <span class="stock-count" data-id="@item.Id">@item.Quantity</span></p>
+        <p>Hind: €@item.Price</p>
+        <p>Valitud: <span class="selected-count" data-id="@item.Id">0</span></p>
+    </div>   
+}
+</div>
+
+<div id="total-container" style="margin-top: 30px; font-size: 1.2em;">
+    <strong>Kogusumma:</strong> €<span id="total-sum">0.00</span> 
+    <div style="margin-top: 20px;">
+        <button id="reset-button">Taasta</button>
+        <button id="checkout-button">Kassa</button>
+    </div>
+</div>
+<div id="thank-you-message" style="display:none; margin-top:20px; font-size:1.2em; color: green;">
+    Tänan ostu eest!
+</div>
+
+@section Scripts {
+<script>
+    const selectedCounts = {};
+    const stockCounts = {};
+    const prices = {};
+
+    function attachClickHandlers() {
+        document.querySelectorAll("img.clickable").forEach(img => {
+            const newImg = img.cloneNode(true); // tee koopia ilma varasemate sündmusteta
+            img.replaceWith(newImg); // asenda vana element puhta koopiaga
+
+            newImg.addEventListener("click", () => {
+                const id = newImg.dataset.id;
+                const stockEl = document.querySelector(`.stock-count[data-id='${id}']`);
+                const selectedEl = document.querySelector(`.selected-count[data-id='${id}']`);
+                const price = parseFloat(newImg.closest(".item-card").dataset.price);
+
+                let stock = stockCounts[id] ?? parseInt(stockEl.textContent);
+                let selected = selectedCounts[id] ?? 0;
+
+                if (stock <= 0) return;
+
+                stock--;
+                selected++;
+
+                stockCounts[id] = stock;
+                selectedCounts[id] = selected;
+                prices[id] = price;
+
+                stockEl.textContent = stock;
+                selectedEl.textContent = selected;
+
+                if (stock === 0) {
+                    newImg.classList.remove("clickable");
+                    newImg.classList.add("grayscale");
+                    newImg.style.filter = "grayscale(100%)";
+                    newImg.style.cursor = "not-allowed";
+                }
+
+                updateTotal();
+            });
+        });
+    }
+
+    attachClickHandlers();
+
+    function updateTotal() {
+        let total = 0;
+        for (const id in selectedCounts) {
+            total += selectedCounts[id] * prices[id];
+        }
+        document.getElementById("total-sum").textContent = total.toFixed(2);
+    }
+
+    document.getElementById("reset-button").addEventListener("click", () => {
+        document.querySelectorAll(".item-card").forEach(card => {
+            const id = card.dataset.id;
+            const stockEl = card.querySelector(".stock-count");
+            const selectedEl = card.querySelector(".selected-count");
+            const img = card.querySelector("img");
+
+            const originalStock = parseInt(card.dataset.stock);
+            const price = parseFloat(card.dataset.price);
+
+            stockCounts[id] = originalStock;
+            selectedCounts[id] = 0;
+            prices[id] = price;
+
+            stockEl.textContent = originalStock;
+            selectedEl.textContent = 0;
+
+            if (originalStock > 0) {
+                img.classList.remove("grayscale");
+                img.classList.add("clickable");
+                img.style.filter = "";
+                img.style.cursor = "pointer";
+            } else {
+                img.classList.remove("clickable");
+                img.classList.add("grayscale");
+                img.style.filter = "grayscale(100%)";
+                img.style.cursor = "not-allowed";
+            }
+        });
+
+        attachClickHandlers();
+        updateTotal();
+    });
+
+    document.getElementById("checkout-button").addEventListener("click", () => {
+        const total = parseFloat(document.getElementById("total-sum").textContent);
+
+        if (total === 0) {
+            alert("Vali tooteid enne maksmist.");
+            return;
+        }
+
+        const input = prompt(`Palun sisesta makstud summa (€), kogusumma on €${total.toFixed(2)}:`);
+
+        if (input === null) return;
+
+        const paid = parseFloat(input.replace(',', '.'));
+
+        if (isNaN(paid) || paid < total) {
+            alert("Makstud summa on kehtetu või liiga väike.");
+            return;
+        }
+
+        let change = Math.round((paid - total) * 100);
+        const coins = [200, 100, 50, 20, 10, 5, 2, 1];
+        const changeBreakdown = [];
+
+        for (const coin of coins) {
+            const count = Math.floor(change / coin);
+            if (count > 0) {
+                changeBreakdown.push(`${count} × ${coin >= 100 ? (coin / 100).toFixed(2) + "€" : coin + "s"}`);
+                change -= count * coin;
+            }
+        }
+
+        alert(`Vahetusraha: €${(paid - total).toFixed(2)}\n\nAntakse tagasi:\n${changeBreakdown.join('\n')}`);
+
+        const updatedQuantities = {};
+        for (const id in selectedCounts) {
+            updatedQuantities[id] = stockCounts[id];
+        }
+
+        fetch('/api/items/update-quantities', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(updatedQuantities)
+        })
+        .then(response => {
+            if (response.ok) {
+                for (const id in selectedCounts) {
+                    selectedCounts[id] = 0;
+                }
+
+                document.querySelectorAll(".item-card").forEach(card => {
+                    const id = card.dataset.id;
+                    const stockEl = card.querySelector(".stock-count");
+                    const selectedEl = card.querySelector(".selected-count");
+                    const img = card.querySelector("img");
+
+                    const currentStock = parseInt(stockEl.textContent);
+
+                    stockCounts[id] = currentStock;
+                    card.dataset.stock = currentStock;
+                    selectedEl.textContent = 0;
+
+                    if (currentStock > 0) {
+                        img.classList.remove("grayscale");
+                        img.classList.add("clickable");
+                        img.style.filter = "";
+                        img.style.cursor = "pointer";
+                    } else {
+                        img.classList.remove("clickable");
+                        img.classList.add("grayscale");
+                        img.style.filter = "grayscale(100%)";
+                        img.style.cursor = "not-allowed";
+                    }
+                });
+
+                updateTotal();
+                attachClickHandlers();
+
+                const msg = document.getElementById("thank-you-message");
+                msg.style.display = "block";
+                setTimeout(() => {
+                    msg.style.display = "none";
+                }, 4000);
+            } else {
+                alert("Koguseid ei õnnestunud salvestada.");
+            }
+        })
+        .catch(() => {
+            alert("Viga serveriga ühenduses.");
+        });
+    });
+</script>
+}

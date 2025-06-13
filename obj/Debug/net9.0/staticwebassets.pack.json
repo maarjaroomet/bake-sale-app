@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Apple_Tart.jpg",
+      "PackagePath": "staticwebassets\\images\\Apple_Tart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Brownie.jpg",
+      "PackagePath": "staticwebassets\\images\\Brownie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Cake_Pop.jpg",
+      "PackagePath": "staticwebassets\\images\\Cake_Pop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Jacket.jpg",
+      "PackagePath": "staticwebassets\\images\\Jacket.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Muffin.jpg",
+      "PackagePath": "staticwebassets\\images\\Muffin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Pants.jpg",
+      "PackagePath": "staticwebassets\\images\\Pants.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Shirt.jpg",
+      "PackagePath": "staticwebassets\\images\\Shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Toy.jpg",
+      "PackagePath": "staticwebassets\\images\\Toy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Water.jpg",
+      "PackagePath": "staticwebassets\\images\\Water.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BakeSale.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BakeSale.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.BakeSale.props",
+      "PackagePath": "build\\BakeSale.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.BakeSale.props",
+      "PackagePath": "buildMultiTargeting\\BakeSale.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.BakeSale.props",
+      "PackagePath": "buildTransitive\\BakeSale.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

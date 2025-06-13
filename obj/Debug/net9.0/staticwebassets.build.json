@@ -1,0 +1,1289 @@
+{
+  "Version": 1,
+  "Hash": "Fh6mZBziRqD+dykrI6AGVXLQp1VNg45AJXC2+xo/R3k=",
+  "Source": "BakeSale",
+  "BasePath": "_content/BakeSale",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BakeSale\\wwwroot",
+      "Source": "BakeSale",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\obj\\Debug\\net9.0\\compressed\\mamsrlwmgv-0otwvkfnxw.gz",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "css/site#[.{fingerprint=0otwvkfnxw}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hhpdx6pnur",
+      "Integrity": "u1Seexn4wL6RtJ10oABDg8Yxq0hQhvPEj6fS3m2K8yA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\css\\site.css",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0otwvkfnxw",
+      "Integrity": "0KIOx7RoOZvCIY9cpceNhiq+ncZPWVoqxID6hhbP1MA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Apple_Tart.jpg",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "images/Apple_Tart#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gyt1eidzo7",
+      "Integrity": "6DMS4wJjUsg+6dvVnb/UV+BUlPOZHMxRNY1+JJJ7Fok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Apple_Tart.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Brownie.jpg",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "images/Brownie#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5xld9pyfsf",
+      "Integrity": "x8KXsGZwwq6VTNwieFZdWX1bye7drXqUIpHIAGp1Eu8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Brownie.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Cake_Pop.jpg",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "images/Cake_Pop#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hd30t10w5m",
+      "Integrity": "6w3JCfu7bfixVONK3bT3KE93PIWxPro32vj6I/kE8X8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Cake_Pop.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Jacket.jpg",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "images/Jacket#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "89usapozkk",
+      "Integrity": "LBZPkCYJrQxmB36/ollVhxVley3uO1AG9PPtyyL19Q0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Jacket.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Muffin.jpg",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "images/Muffin#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5rbwxto24x",
+      "Integrity": "gVgn69GrWJJwqIyKaSTBAtCCWlr/bnXCtWqTy48EEUs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Muffin.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Pants.jpg",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "images/Pants#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vlu9s1qqi9",
+      "Integrity": "zZyQq4/WwurzhMOuUbfv9Mwmv72HidnzblbahAQbNyw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pants.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Shirt.jpg",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "images/Shirt#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ra0pikjxio",
+      "Integrity": "PaDlJtzkzvqa+NKxChr0JNZXEngCM0E+/aDNJKO16Sw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Shirt.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Toy.jpg",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "images/Toy#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rzrqwzd4uy",
+      "Integrity": "N2zuOt5ZIUw/ejnPFGW6MGNVlYyZXLbJmaLOwk1XN4M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Toy.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Water.jpg",
+      "SourceId": "BakeSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\",
+      "BasePath": "_content/BakeSale",
+      "RelativePath": "images/Water#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s06uwbvozs",
+      "Integrity": "BGoVSr3VLRrVTg1PH92u+Zb0d51Ar5f0tqPVu0qle50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Water.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.0otwvkfnxw.css",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\obj\\Debug\\net9.0\\compressed\\mamsrlwmgv-0otwvkfnxw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002183406114"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "457"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u1Seexn4wL6RtJ10oABDg8Yxq0hQhvPEj6fS3m2K8yA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 20:16:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0KIOx7RoOZvCIY9cpceNhiq+ncZPWVoqxID6hhbP1MA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0otwvkfnxw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0KIOx7RoOZvCIY9cpceNhiq+ncZPWVoqxID6hhbP1MA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.0otwvkfnxw.css",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0KIOx7RoOZvCIY9cpceNhiq+ncZPWVoqxID6hhbP1MA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 20:16:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0otwvkfnxw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0KIOx7RoOZvCIY9cpceNhiq+ncZPWVoqxID6hhbP1MA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.0otwvkfnxw.css.gz",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\obj\\Debug\\net9.0\\compressed\\mamsrlwmgv-0otwvkfnxw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u1Seexn4wL6RtJ10oABDg8Yxq0hQhvPEj6fS3m2K8yA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 20:16:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0otwvkfnxw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u1Seexn4wL6RtJ10oABDg8Yxq0hQhvPEj6fS3m2K8yA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\obj\\Debug\\net9.0\\compressed\\mamsrlwmgv-0otwvkfnxw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002183406114"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "457"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u1Seexn4wL6RtJ10oABDg8Yxq0hQhvPEj6fS3m2K8yA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 20:16:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0KIOx7RoOZvCIY9cpceNhiq+ncZPWVoqxID6hhbP1MA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0KIOx7RoOZvCIY9cpceNhiq+ncZPWVoqxID6hhbP1MA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0KIOx7RoOZvCIY9cpceNhiq+ncZPWVoqxID6hhbP1MA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 20:16:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0KIOx7RoOZvCIY9cpceNhiq+ncZPWVoqxID6hhbP1MA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\obj\\Debug\\net9.0\\compressed\\mamsrlwmgv-0otwvkfnxw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u1Seexn4wL6RtJ10oABDg8Yxq0hQhvPEj6fS3m2K8yA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 20:16:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u1Seexn4wL6RtJ10oABDg8Yxq0hQhvPEj6fS3m2K8yA="
+        }
+      ]
+    },
+    {
+      "Route": "images/Apple_Tart.gyt1eidzo7.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Apple_Tart.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DMS4wJjUsg+6dvVnb/UV+BUlPOZHMxRNY1+JJJ7Fok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:01:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gyt1eidzo7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Apple_Tart.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6DMS4wJjUsg+6dvVnb/UV+BUlPOZHMxRNY1+JJJ7Fok="
+        }
+      ]
+    },
+    {
+      "Route": "images/Apple_Tart.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Apple_Tart.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DMS4wJjUsg+6dvVnb/UV+BUlPOZHMxRNY1+JJJ7Fok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:01:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6DMS4wJjUsg+6dvVnb/UV+BUlPOZHMxRNY1+JJJ7Fok="
+        }
+      ]
+    },
+    {
+      "Route": "images/Brownie.5xld9pyfsf.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Brownie.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x8KXsGZwwq6VTNwieFZdWX1bye7drXqUIpHIAGp1Eu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 15:58:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5xld9pyfsf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Brownie.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x8KXsGZwwq6VTNwieFZdWX1bye7drXqUIpHIAGp1Eu8="
+        }
+      ]
+    },
+    {
+      "Route": "images/Brownie.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Brownie.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x8KXsGZwwq6VTNwieFZdWX1bye7drXqUIpHIAGp1Eu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 15:58:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x8KXsGZwwq6VTNwieFZdWX1bye7drXqUIpHIAGp1Eu8="
+        }
+      ]
+    },
+    {
+      "Route": "images/Cake_Pop.hd30t10w5m.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Cake_Pop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6w3JCfu7bfixVONK3bT3KE93PIWxPro32vj6I/kE8X8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:00:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hd30t10w5m"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Cake_Pop.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6w3JCfu7bfixVONK3bT3KE93PIWxPro32vj6I/kE8X8="
+        }
+      ]
+    },
+    {
+      "Route": "images/Cake_Pop.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Cake_Pop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6w3JCfu7bfixVONK3bT3KE93PIWxPro32vj6I/kE8X8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:00:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6w3JCfu7bfixVONK3bT3KE93PIWxPro32vj6I/kE8X8="
+        }
+      ]
+    },
+    {
+      "Route": "images/Jacket.89usapozkk.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Jacket.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90382"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LBZPkCYJrQxmB36/ollVhxVley3uO1AG9PPtyyL19Q0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:06:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "89usapozkk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Jacket.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LBZPkCYJrQxmB36/ollVhxVley3uO1AG9PPtyyL19Q0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Jacket.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Jacket.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90382"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LBZPkCYJrQxmB36/ollVhxVley3uO1AG9PPtyyL19Q0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:06:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LBZPkCYJrQxmB36/ollVhxVley3uO1AG9PPtyyL19Q0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Muffin.5rbwxto24x.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Muffin.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gVgn69GrWJJwqIyKaSTBAtCCWlr/bnXCtWqTy48EEUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 15:59:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5rbwxto24x"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Muffin.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gVgn69GrWJJwqIyKaSTBAtCCWlr/bnXCtWqTy48EEUs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Muffin.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Muffin.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gVgn69GrWJJwqIyKaSTBAtCCWlr/bnXCtWqTy48EEUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 15:59:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gVgn69GrWJJwqIyKaSTBAtCCWlr/bnXCtWqTy48EEUs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Pants.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Pants.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zZyQq4/WwurzhMOuUbfv9Mwmv72HidnzblbahAQbNyw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zZyQq4/WwurzhMOuUbfv9Mwmv72HidnzblbahAQbNyw="
+        }
+      ]
+    },
+    {
+      "Route": "images/Pants.vlu9s1qqi9.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Pants.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zZyQq4/WwurzhMOuUbfv9Mwmv72HidnzblbahAQbNyw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vlu9s1qqi9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Pants.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zZyQq4/WwurzhMOuUbfv9Mwmv72HidnzblbahAQbNyw="
+        }
+      ]
+    },
+    {
+      "Route": "images/Shirt.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Shirt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PaDlJtzkzvqa+NKxChr0JNZXEngCM0E+/aDNJKO16Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:04:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PaDlJtzkzvqa+NKxChr0JNZXEngCM0E+/aDNJKO16Sw="
+        }
+      ]
+    },
+    {
+      "Route": "images/Shirt.ra0pikjxio.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Shirt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PaDlJtzkzvqa+NKxChr0JNZXEngCM0E+/aDNJKO16Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:04:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ra0pikjxio"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Shirt.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PaDlJtzkzvqa+NKxChr0JNZXEngCM0E+/aDNJKO16Sw="
+        }
+      ]
+    },
+    {
+      "Route": "images/Toy.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Toy.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N2zuOt5ZIUw/ejnPFGW6MGNVlYyZXLbJmaLOwk1XN4M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:07:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N2zuOt5ZIUw/ejnPFGW6MGNVlYyZXLbJmaLOwk1XN4M="
+        }
+      ]
+    },
+    {
+      "Route": "images/Toy.rzrqwzd4uy.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Toy.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N2zuOt5ZIUw/ejnPFGW6MGNVlYyZXLbJmaLOwk1XN4M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:07:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rzrqwzd4uy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Toy.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N2zuOt5ZIUw/ejnPFGW6MGNVlYyZXLbJmaLOwk1XN4M="
+        }
+      ]
+    },
+    {
+      "Route": "images/Water.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Water.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101005"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BGoVSr3VLRrVTg1PH92u+Zb0d51Ar5f0tqPVu0qle50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BGoVSr3VLRrVTg1PH92u+Zb0d51Ar5f0tqPVu0qle50="
+        }
+      ]
+    },
+    {
+      "Route": "images/Water.s06uwbvozs.jpg",
+      "AssetFile": "C:\\Users\\Maarja\\Documents\\bake-sale-app\\BakeSale\\wwwroot\\images\\Water.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101005"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BGoVSr3VLRrVTg1PH92u+Zb0d51Ar5f0tqPVu0qle50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s06uwbvozs"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Water.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BGoVSr3VLRrVTg1PH92u+Zb0d51Ar5f0tqPVu0qle50="
+        }
+      ]
+    }
+  ]
+}
